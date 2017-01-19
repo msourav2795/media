@@ -5,7 +5,7 @@
 <title>UCS Media</title>
 <style>
 #page {
-
+ display:none;
 }
 #loading {
 
@@ -52,7 +52,8 @@
 <script>
 $(window).load(function() {
 		// Animate loader off screen
-		$("#loading").fadeOut("slow");;
+		$("#page").show();
+		$("#loading").fadeOut("slow");
 	});
 </script> 
 <body>
