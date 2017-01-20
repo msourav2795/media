@@ -15,8 +15,8 @@
     z-index: 100;
     width: 100vw;
     height: 100vh;
-    background-color: #EF7764;
-    background-image: url("https://f.flockusercontent2.com/2ca5d991484892925d84743e");
+    background-color: white;
+    background-image: url("http://smallenvelop.com/wp-content/uploads/2014/08/Preloader_11.gif");
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -51,10 +51,9 @@
 <script src="bootstrap.js" type="text/javascript"></script>
 <script>
 $(window).load(function() {
-		setTimeout(function(){
+		// Animate loader off screen
 		$("#page").show();
 		$("#loading").fadeOut("slow");
-		},4000);
 	});
 </script> 
 <body>
