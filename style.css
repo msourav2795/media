@@ -17,7 +17,7 @@ a{color: #333;}
 .banner .caption h2{margin-bottom:20px;}
 .banner .caption p{margin-bottom: 30px;font:normal 25px/30px 'Old Standard TT', serif;color: #eee;}
 .banner .caption a.btn{margin: 0 5px;}
-.block.news{ background-image:url(news.jpg); }
+.block.news{ background-image:url(news.gif);background-color:#EF7764; }
 .block.livetv{ background-image:url(live-tv.jpg); }
 .block.production{ background-image:url(production.jpg); }
 .block.management{ background-image:url(management.jpg); }
