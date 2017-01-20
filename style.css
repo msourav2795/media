@@ -22,7 +22,7 @@ a{color: #333;}
 .block.production{ background-image:url(production.jpg); }
 .block.management{ background-image:url(management.jpg); }
 .block{background-size:114%; display: table-cell;vertical-align: middle;text-align: center;position: relative;background-position: center;font: normal 16px 'Old Standard TT';-webkit-transition: all 0.4s ease-in-out;-moz-transition: all 0.4s ease-in-out;-ms-transition: all 0.4s ease-in-out;-o-transition: all 0.4s ease-in-out;transition: all 0.4s ease-in-out; background-repeat: no-repeat;}
-.block:hover{background-size:125%;}
+.block.news:hover{background-image:url(news.png);width:100%}
 .block .info{background:rgba(146,199,4,0.9);border-radius: 50%;height: 175px;width: 175px;color: #fff;display: none;text-align: center;}
 .block .info h3{ margin:50px 0 5px 0;}
 .block:hover .info{display: inline-block;}
