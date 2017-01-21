@@ -23,21 +23,21 @@ a{color: #333;}
 .block.management{ background-image:url(management.jpg); }
 .block{background-size:114%; display: table-cell;vertical-align: middle;text-align: center;position: relative;background-position: center;font: normal 16px 'Old Standard TT';-webkit-transition: all 0.4s ease-in-out;-moz-transition: all 0.4s ease-in-out;-ms-transition: all 0.4s ease-in-out;-o-transition: all 0.4s ease-in-out;transition: all 0.4s ease-in-out; background-repeat: no-repeat;}
 .block.news:hover{background-image:url(news.png);width:100%}
-.block .info{background:rgba(146,199,4,0.9);border-radius: 50%;height: 175px;width: 175px;color: #fff;display: none;text-align: center;}
+.blocks .info{background:rgba(146,199,4,0.9);border-radius: 50%;height: 175px;width: 175px;color: #fff;display: none;text-align: center;}
 .block .info h3{ margin:50px 0 5px 0;}
-.block:hover .info{display: inline-block;}
-.block .overlay{background: rgba(234,0,110,0.9);position: absolute;top: 0;right: 0;bottom: 0;left: 0;color: #fff;padding: 20px;}
-.block .overlay h4{margin:0 0 10px 0;border-bottom: 1px solid #ccc;display: inline-block;padding-bottom: 10px;}
-.block .overlay p{margin-bottom: 30px;}
+.blocks:hover .info{display: inline-block;}
+.blocks .overlay{background: rgba(234,0,110,0.9);position: absolute;top: 0;right: 0;bottom: 0;left: 0;color: #fff;padding: 20px;}
+.blocks .overlay h4{margin:0 0 10px 0;border-bottom: 1px solid #ccc;display: inline-block;padding-bottom: 10px;}
+.blocks .overlay p{margin-bottom: 30px;}
 @media (max-width: 1200px){
 	h2 {font: italic 45px/45px 'Old Standard TT', serif;}
 	.btn{padding: 5px 12px;letter-spacing: 1px;}
 	.block{background-size: cover !important;font-size: 13px;}
 	.block .info{display: inline-block; height: 120px; width: 120px; }
 	.block .overlay{padding: 15px;}
-	.block .info h3 {margin: 40px 0 5px 0;font: normal 23px/23px 'Old Standard TT', serif;}
-	.block .overlay p {margin-bottom: 10px;}
-	.block .overlay h4{font:italic 17px/15px 'Old Standard TT', serif;}
+	.blocks .info h3 {margin: 40px 0 5px 0;font: normal 23px/23px 'Old Standard TT', serif;}
+	.blocks .overlay p {margin-bottom: 10px;}
+	.blocks .overlay h4{font:italic 17px/15px 'Old Standard TT', serif;}
 }
 @media (max-width: 991px){
 	.homepage .height-half{height: 25%;}
